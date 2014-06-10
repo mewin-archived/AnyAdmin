@@ -1,0 +1,3 @@
+text-color: #99ddff
+link-color: #4488bb
+link-active-color: #ff0000

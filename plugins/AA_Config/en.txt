@@ -1,0 +1,8 @@
+config=Configuration
+set_grp_main=Main Settings
+set_aa.config.button=Display Configuration Button
+unknown_setting_type=Warning: Unkown setting type!
+config_save_failed=Failed to save configuration:
+config_save_failed_more=And %d more
+save_settings=Save Settings
+reset_settings=Reset Settings

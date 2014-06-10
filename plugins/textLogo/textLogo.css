@@ -1,0 +1,15 @@
+a.tl_a, a.tl_a:hover
+{
+	text-decoration: none;
+	border: 0 none;
+	display: inline;
+	padding-left: 30px;
+	font-size: 65px;
+	font-variant: small-caps;
+	color: inherit;
+}
+
+span.tl_2
+{
+	color: #cccccc;
+}

@@ -1,0 +1,205 @@
+body
+{
+	font-family: courier;
+	background: #000000;
+	color: <!--@setting(text-color, #99ddff)-->;
+	min-height: 99%;
+	min-width: 99%;
+}
+
+/*
+	links
+*/
+a
+{
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px <!--@setting(text-color, #99ddff)--> dotted;
+}
+
+a:hover
+{
+	color: <!--@setting(link-color, #4488bb)-->;
+	border-bottom: 1px <!--@setting(link-color, #99ddff)--> dotted;
+}
+
+a:active
+{
+	color: <!--@setting(link-active-color, #ff0000)-->;
+}
+
+/*
+	boxes
+*/
+div.footer
+{
+	position: fixed;
+	width: 99%;
+	left: 0;
+	bottom: 2px;
+	text-align: center;
+}
+
+div.header
+{
+	position: absolute;
+	width: 99%;
+	left: 0;
+	top: 25px;
+	text-align: center;
+}
+
+div.message_warning, div.message_error
+{
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 30%;
+	width: 40%;
+	min-height: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	color: #000000;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+div.message_warning
+{
+	background-color: <!--@setting(warning-color, #ffff77)-->;
+}
+
+div.message_error
+{
+	background-color: <!--@setting(error-color, #ff7777)-->;
+}
+
+form.loginForm
+{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+div.tron_navi
+{
+	padding-left: 20px;
+	width: 100%;
+	text-align: left;
+}
+
+div.tron_wrapper
+{
+	position: absolute;
+	left: 5%;
+	top: 100px;
+	height: 80%;
+	width: 80%;
+	text-align: center;
+	margin-left: 20px;
+}
+
+div.tron_ovwrapper
+{
+	width: 100%;
+	height: 80%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom: 1px solid <!--@setting(text-color, #99ddff)-->;
+	padding: 20px;
+	overflow: auto;
+	display: inline-block;
+	text-align: left;
+}
+
+div.tron_headwrapper
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-height: 100px;
+	z-index: 10;
+}
+/*
+	input fields
+*/
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=number]
+{
+	font-family: inherit;
+	color: <!--@setting(text-color, #99ddff)-->;
+	border: 0 none;
+	padding: 2px;
+	background: transparent;
+	border-bottom: 1px dashed <!--@setting(text-color, #99ddff)-->;
+}
+
+input[type=button], input[type=submit], input[type=reset], button
+{
+	background: <!--@setting(text-color, #99ddff)-->;
+	color: #000000;
+	border: 0 none;
+}
+
+/*
+	default styles
+*/
+a.navi
+{
+	display: inline-block;
+	min-width: 100px;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: -20px;
+	margin-top: -5px;
+	text-align: center;
+	border-top: 1px solid <!--@setting(text-color, #99ddff)-->;
+	border-left: 1px solid <!--@setting(text-color, #99ddff)-->;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background: #000000;
+}
+
+div.overview
+{
+	
+}
+
+div.group
+{
+	margin-left: 10px;
+}
+
+h1
+{
+	font-size: 200%;
+}
+
+h2
+{
+	font-size: 180%;
+}
+
+h3
+{
+	font-size: 160%;
+}
+
+h4
+{
+	font-size: 140%;
+}
+
+h5
+{
+	font-size: 120%;
+}
+
+h6
+{
+	font-weight: bold;
+}

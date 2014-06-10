@@ -1,0 +1,5 @@
+This is a list of the default variables used by anyadmin. You can register own variables that can be used by any plugin and any template.
+
+PAGE_TITLE - contains the title of the current page (as shown in the browsers title bar)
+LOGGED_IN - contains a boolean representing whether the current user is logged in
+STYLE_BASE - the base path to access files your template uses (like css files and images)

@@ -1,0 +1,6 @@
+This is a list of the default css classes and elements any template should support and that can be used by the plugins.
+
+a.navi - a class used as the base class for all navigation elements
+div.overview - a class used for single containers in the overview section
+div.group - a class used for groups of elements that should belong together
+h1..6 - heading level 1..6

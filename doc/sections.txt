@@ -1,0 +1,8 @@
+This is a listing of the (default) sections that should be supported by all templates.
+
+header - takes code that should be put in the header of the page (like logos, etc.)
+head - takes code that should be put in the html head of the page (like custom meta-, link- or script-tags)
+navi - takes code for the navi; normally that should just be links shown to the current user in this format: '<a class="navi" href="[reference]">[text]</a>'
+navi_early - like navi, but takes navi elements that should appear early in the navi
+navi_late - like navi, but takes navi elements that should appear late in the navi
+footer - takes code that should be put in the footer of the page

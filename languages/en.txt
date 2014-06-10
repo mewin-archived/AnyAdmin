@@ -1,0 +1,8 @@
+home=Home
+user_label=Username
+password_label=Password
+login=Login
+logout=Logout
+not_logged_in=You are not logged in.
+login_failed=Login failed!
+save=Save

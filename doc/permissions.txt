@@ -1,0 +1,2 @@
+aa.config.grant - Grants access to ANY setting
+aa.config.show
